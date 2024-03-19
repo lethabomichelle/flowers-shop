@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+   
+    background-size: cover;
+    text-decoration-color: aliceblue;
+
+}
+
+#products {
+    width: 90%;
+}
+
+img{
+    width: 25rem;
+    height: 25rem;
+}
