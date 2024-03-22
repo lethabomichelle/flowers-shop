@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color:rgb(235,211,209);
+    background-size: cover;
+    text-decoration-color: aliceblue;
+}
+
+.navigation ul {
+    list-style-type: none;
+    background-color: rgb(89,102,118) ;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    display: block;
+}
+
+.navigation a:hover{
+    background-color: rgb(152,166,175);
+}
+
+.navigation li{
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+#services {
+    background-image: url(./images/1710917003314.png);
+    display: flex;
+    justify-content: space-around;  
+    padding: 5rem 5rem;
+    margin-bottom: 2rem;
+}
+
+.type {
+     width: 15rem;
+    height: 10rem; 
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s ease;
+    color: rgb(14, 1, 1);      
+}
+
+#services a {
+    text-decoration: none;
+}
+
+.type h2 {
+    background-color: rgba(216, 214, 212, 0.5);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.type:hover {
+    background-color:rgb(235,211,209) ;
+    color: white;
+    width: 15rem;
+    height: 11rem;  
+}
+
+.card {
+    box-shadow: 0 2px 8px 0 rgb(240, 145, 145);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 25rem;   
+}
+
+.card img {
+    width: 100%;
+    height: 20rem;
+}
+
+.price {
+    color: black;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #E5B1A4;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

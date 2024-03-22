@@ -5,6 +5,14 @@ body {
     text-decoration-color: aliceblue;
 }
 
+#home {
+    margin-top: 1rem;
+    background-image: url(./images/1710917003314.png);
+    width: 200rem;
+    height: 25rem;
+    margin-bottom: 10rem;
+}
+
 .navigation ul {
     list-style-type: none;
     background-color: rgb(89,102,118) ;
@@ -12,6 +20,9 @@ body {
     margin: 0;
     overflow: hidden;
 }
+
+
+
 
 .navigation a {
     color: white;

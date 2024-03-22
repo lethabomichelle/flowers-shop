@@ -7,28 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>GARDEN OF EDEN</h1>
+    
     <nav class="navigation">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            
           
         </ul>
 
     </nav>
 
-    <div class="catalogue">
-        <div class="grid-item"><a href="weddings.html">WEDDING</a></div>
-        <div class="grid-item grid-img-right"><img src="./images/couple.jpg" alt="wedding bouquet"></div>
-        <div class="grid-item grid-img-left"><img src="./images/for her.jpg" alt="flowers"></div>
-        <div class="grid-item"><a href="for-her.html">FOR HER</a></div>
-        <div class="grid-item"><a href="for-him.html">FOR HIM</a></div>
-        <div class="grid-item grid-img-right"><img src="./images/for him.jpeg" alt="beer bouquet"></div>
-        <div class="grid-item grid-img-left"><img src="./images/red roses.jpg" alt="red roses"></div>
-        <div class="grid-item"><a href="gifts.html">GIFT SETS</a></div>
-    </div>
+    <section id="home">
+    </section>
+    
+
+    <section id="products">
+        <div class="catalogue">
+            <div class="grid-item grid-img-left"><img src="./images/specials.jpeg" alt="spcecials"></div>
+            <div class="grid-item"><a href="specials.html">SPECIALS</a></div>
+            <div class="grid-item"><a href="weddings.html">WEDDINGS</a></div>
+            <div class="grid-item grid-img-right"><img src="./images/couple.jpg" alt="wedding bouquet"></div>
+            <div class="grid-item grid-img-left"><img src="./images/for her.jpg" alt="flowers"></div>
+            <div class="grid-item"><a href="for-her.html">FOR HER</a></div>
+            <div class="grid-item"><a href="for-him.html">FOR HIM</a></div>
+            <div class="grid-item grid-img-right"><img src="./images/for him.jpeg" alt="beer bouquet"></div>
+            <div class="grid-item grid-img-left"><img src="./images/red roses.jpg" alt="red roses"></div>
+            <div class="grid-item"><a href="gifts-set.html">GIFT SETS</a></div>
+            <div class="grid-item"><a href="funerals.html">FUNERALS</a></div>
+            <div class="grid-item grid-img-right"><img src="./images/IMG_8525.png" alt="beer bouquet"></div>
+        </div>
+    </section>
 
     <section id="about">
         <h1>about us</h1>
@@ -36,28 +47,30 @@
     </section>
 
     <section id="contact">
-        <H1>MESSAGE US</H1>
-            <label for="fname">First Name</label>
-            <br>
-            <input type="text" name="first_name" id="fname" placeholder="First Name">
-            <br>
-            <label for="lname">Last Name</label>
-            <br>
-            <input type="text" name="last_name" id="lname" placeholder="last Name">
-            <br>
-            <label for="email">Email</label>
-            <br>
-            <input type="email" name="email_address" id="email" placeholder="Email address">
-            <br>
-            <label for="message">Message</label>
-            <br>
-            <textarea name="message" id="message" cols="30" rows="5"></textarea>
-            
-            <br>
-            <input type="checkbox" id="sign up" name="sign_up">
-            <label for="sign up">Sign up for the newsletter</label>
-            <br>
-            <input id="button" type="submit" value="send" >
+        <form action="">
+            <H1>MESSAGE US</H1>
+                <label for="fname">First Name</label>
+                <br>
+                <input type="text" name="first_name" id="fname" placeholder="First Name">
+                <br>
+                <label for="lname">Last Name</label>
+                <br>
+                <input type="text" name="last_name" id="lname" placeholder="last Name">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email_address" id="email" placeholder="Email address">
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                
+                <br>
+                <input type="checkbox" id="sign up" name="sign_up">
+                <label for="sign up">Sign up for the newsletter</label>
+                <br>
+                <input id="button" type="submit" value="send" >
+        </form>
     </section>
     
 
