@@ -1,8 +1,9 @@
 body {
     margin: 0;
-    background-color:rgb(235,211,209);
+    background-color:#F0BCE2;
     background-size: cover;
     text-decoration-color: aliceblue;
+    /* overflow: hidden; */
 }
 
 #home {
@@ -15,7 +16,7 @@ body {
 
 .navigation ul {
     list-style-type: none;
-    background-color: rgb(89,102,118) ;
+    background-color: white ;
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -25,7 +26,7 @@ body {
 
 
 .navigation a {
-    color: white;
+    color: darkcyan;
     text-decoration: none;
     padding: 2rem;
     display: block;
